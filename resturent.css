@@ -1,0 +1,643 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+header{
+    height: 4.9vh;
+    width: 80vw;
+    display: flex;
+   background-color: aliceblue;
+  border-radius: 10px;
+    margin-left: 180px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 130px;
+    position: absolute;
+
+
+}
+
+.banner{
+    height: 80vh;
+    width: 100vw;
+    display: flex;
+   background-image: url(./images/banner.jpg);
+   background-color: rgba(24, 23, 23, 0.342) !important;
+    background-repeat: no-repeat;
+   background-size: cover;
+  
+ 
+}
+
+.logo{
+    height: 15vh;
+    width: 20vw;
+    display: flex;
+    justify-content: center;
+    background-color: #F0F8FF;
+    background-image: url(./images/logo.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 20px;
+ 
+    
+}
+
+h1{
+    font-size: 90px;
+    justify-content: center;
+    align-items: center;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    color: rgb(239, 244, 246);
+    margin-top: 330px;
+    margin-left: 350px;
+}
+
+h2{
+    font-size: 40px;
+    justify-content: center;
+    align-items: center;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    color: white;
+    margin-top: 280px;
+    margin-left: -350px;
+}
+
+h3{
+    font-size: 25px;
+    font-family:'Great Vibes', cursive;
+    /* font-weight: 100 ; */
+    color: #F79321;
+    justify-content: center;
+margin-top: 100px;
+margin-left: -9;
+transition: 1.5s;
+}
+h3:hover{
+    
+    color: rgb(230, 110, 11);
+    
+}
+
+p{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    color: white;
+    letter-spacing: 2px;
+    font-size:15px;
+    margin-top: 430px;
+    margin-left: -360px;
+
+}
+
+ 
+nav{
+   height: 10vh;
+   width: 80vw;
+   display: flex;
+   color: black;
+   justify-content: center;
+   align-items: center;
+   
+
+
+}
+ul{
+    list-style: none;
+    margin-left: 80px;
+}
+  
+li{
+    display: inline-flex;
+    justify-content: center;
+   /* margin-top: 5px; */
+   margin-left: 35px;
+   font-family: 'IBM Plex Sans Arabic', sans-serif;
+   padding: 0px -2px 0px -2px;
+  color: black;
+  
+   /* transition: 1s; */
+} 
+
+li:nth-child(1){
+    background-color: #F0F8FF;
+    padding: 12px;
+   margin-bottom: -1px;
+    margin-top: 2px;
+    transition: 1.2s;
+}
+li:nth-child(2){
+    background-color: #F0F8FF;
+    padding: 12px;
+    margin-bottom: 1;
+    transition: 1.2s;
+}
+li:nth-child(3){
+    background-color: #F0F8FF;
+    padding: 12px;
+  margin-bottom: 1px;
+    transition: 1.2s;
+}
+li:nth-child(4){
+    background-color: #F0F8FF;
+    padding: 12px;
+    margin-bottom: 1px;
+    transition: 1.2s;
+}
+
+li:nth-child(5){
+    background-color: #F0F8FF;
+    padding: 12px;
+    margin-bottom: 1px;
+    transition: 1.2s;
+}
+li:nth-child(6){
+    background-color: #F0F8FF;
+    padding: 12px;
+  
+    margin-bottom: 1px;
+    transition: 1.2s;
+}
+li:hover{
+    background-color: rgb(139, 67, 67);
+}
+
+.container{
+    height: 80vh;
+    width: 100vw;
+    display: flex;
+    background-color: white;
+
+}
+
+.m1{
+    height: 65vh;
+    width: 24.5vw;
+    background-image: url(./images/m1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    margin-left: 60px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.589);
+    transition: 1.5s;
+
+}
+
+.m1:hover{
+    transform: scale(1.1);
+}
+
+.m2{
+    height: 30vh;
+    width: 30vw;
+    /* background-image: url(./2.jpg); */
+    background-color: rgba(252, 239, 239, 0.952);
+    /* background-repeat: no-repeat;
+    background-size: 80% ; */
+    justify-content: center;
+    align-items: center;
+    margin-top: 16px;
+    margin-left: 25px;
+    border-radius: 8px;
+    transition: 1.5s;
+}  
+.food2{
+    height: 20vh;
+    width: 30vw;
+    background-image: url(./images/m2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    border-radius: 8px;
+}
+
+.m2:hover{
+    transform: scale(1.1);
+}
+
+.button1{
+    font-size: 20px;
+    width: 50%;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    background-color: orangered ;
+    padding: 4px 8px  4px 8px;
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+    margin-top: -25px;
+    margin-left: 150px;
+    transition: 1.2s;
+   
+}
+.button1:hover{
+    transform: scale(1.1);
+}
+
+.m3{
+    height: 30vh;
+    width: 30vw;
+    background-color: #F0F8FF;
+    /* background-image: url(./2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%; */
+    justify-content: center;
+    align-items: center;
+    margin-top: 310px;
+    margin-left: -385px;
+    border-radius: 8px;
+    transition: 1.8s;
+}
+.m3:hover{
+    transform: scale(1.1);
+}
+
+.button2{
+    font-size: 20px;
+    width: 50%;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    background-color: orangered ;
+    padding: 4px 8px  4px 8px;
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+    margin-top: -25px;
+    margin-left: 150px;
+    transition: 1.2s;
+   
+}
+.button2:hover{
+    transform: scale(1.1);
+}
+
+.food3{
+    height: 20vh;
+    width: 30vw;
+    background-image: url(./images/m3.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    border-radius: 8px;
+}
+
+.m4{
+    height: 30vh;
+    width: 30vw;
+ background-color: #F0F8FF;
+    /* background-image: url(./pexels-valeria-boltneva-1199957.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%; */
+    justify-content: center;
+    align-items: center;
+    margin-top: 16px;
+    margin-left: 25px;
+    border-radius: 8px;
+    transition: 1.5s;
+}
+.m4:hover{
+    transform: scale(1.1);
+}
+
+.button3{
+    font-size: 20px;
+    width: 50%;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    background-color: orangered ;
+    padding: 4px 8px  4px 8px;
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+    margin-top: -25px;
+    margin-left: 150px;
+    transition: 1.2s;
+   
+}
+.button3:hover{
+    transform: scale(1.1);
+}
+
+.food4{
+    height: 20vh;
+    width: 30vw;
+    background-image: url(./images/m4.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    border-radius: 8px;
+}
+
+.m5{
+    height: 30vh;
+    width: 30vw;
+background-color: #F0F8FF;
+    /* background-image: url(./pexels-valeria-boltneva-1199957.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%; */
+    justify-content: center;
+    align-items: center;
+    margin-top: 310px;
+    margin-left: -385px;
+    border-radius: 8px;
+    transition: 1.5s;
+}
+.m5:hover{
+    transform: scale(1.1);
+}
+
+.button4{
+    font-size: 20px;
+    width: 50%;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    background-color: orangered ;
+    padding: 4px 8px  4px 8px;
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+    margin-top: -25px;
+    margin-left: 150px;
+    transition: 1.2s;
+   
+}
+.button4:hover{
+    transform: scale(1.1);
+}
+
+.food5{
+    height: 20vh;
+    width: 30vw;
+    background-image: url(./images/m5.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    border-radius: 8px;   
+}
+
+
+h4{
+    font-size: 15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 200;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    position: absolute;
+    margin-top: 190px;
+    margin-left: 20px;
+}
+.price{
+    font-size: 15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 500;
+    position: absolute;
+  margin-top: 220px;
+  margin-left: 20px;
+    color: black;
+}
+
+.rating{
+    /* height: 30px;
+    width: 10%; */
+    /* background-color: rgb(226, 214, 43); */
+    margin-top: 220px;
+    margin-left: 100px;
+    position: absolute;
+   
+}
+.checked{
+    color: orangered;
+}
+
+h5{
+    font-size: 40px;
+    justify-content: center;
+    align-items: center;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    color: white;
+    margin-top: 90px;
+    margin-left: 130px;
+    transition: 1.5s;
+}
+h5:hover{
+   
+transform: rotateX(360deg);
+/* transform: rotateY(300deg); */
+}
+
+
+h6{
+    font-size: 25px;
+    justify-content: center;
+    align-items: center;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    color: white;
+    margin-top: 10px;
+    margin-left: 65px;
+}
+main{
+    font-family:'Great Vibes', cursive ;
+    color: white;
+    font-size:27px;
+    margin-top: 350px;
+    margin-left: 10px;
+
+}
+
+.button{
+    font-size: 20px;
+    width: 30%;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    background-color: orangered ;
+    padding: 3px 3px  3px 3px;
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+    margin-top: 212px;
+    margin-left: 240px;
+    transition: 1.2s;
+   
+}
+.button:hover{
+    transform: scale(1.1);
+}
+
+.footer{
+  height: 30vh;
+  width: 100vw;  
+    background-image: linear-gradient(to top, #163d77e3,#1a3157);
+    position: absolute;
+    margin-top: 900px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+line-height: 15px
+}
+ 
+.ab{
+    justify-content: center;
+    float: left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 30px;
+ 
+}
+
+.h2{
+    font-size: 25px;
+    font-weight: 300;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    color: white;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.a{
+    font-size:15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
+    color: #F0F8FF;
+    margin-top: 20px;
+   margin-left: 33px;
+}
+  
+.bc{
+    justify-content: center;
+ float: left;
+}
+.h3{
+    font-size: 25px;
+    font-weight: 300;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;    color: white;
+    margin-left: 150px;
+    margin-top: 30px;
+}
+
+.b{
+    font-size:15px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
+    color: #F0F8FF;
+    margin-top: 20px;
+   margin-left: 150px;
+}
+
+.ca{
+    justify-content: center;
+ float: left;
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
+
+}
+.h4{
+    font-size: 25px;
+    font-weight: 300;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
+    color: white;
+    margin-left: 150px;
+    margin-top: 30px;
+}
+
+
+.c{
+    font-size:15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
+  
+    color: #F0F8FF;
+    margin-top: 20px;
+   margin-left: 150px;
+}
+
+.h5{
+    font-size: 22px;
+    font-weight: 300;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
+    color: white;
+    margin-left: 130px;
+    margin-top: 45px;
+   float: left;
+}
+
+form{
+    width: 20%;
+    background-color: #363557;
+    border-radius: 5px;
+    border: none;
+    padding: 20px;
+    justify-content: center;
+    float: left;
+    margin-left: 130px;
+    margin-top: 15px;
+    /* padding: 20px 20px; */
+}
+
+input{
+    width: 90%;
+    padding: 20px;
+    border: none;
+    outline: #363557;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* background-color: #363557; */
+}
+
+button {
+    border: none;
+    background-color: orangered;
+    padding: 5px 5px;
+    margin-left: 60px;
+    margin-top: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+  }
+
+/* .btn{
+    background-color: orangered;
+    margin-left: 960px;
+    margin-top: 150px;
+    padding: 10px  10px  10px;
+    width: 10%;
+    color: #F0F8FF;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 100;
+
+
+} */
+
+@media (max-width: 768px) {
+    header {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    h1 {
+        font-size: 60px;
+        margin-top: 250px;
+        margin-left: 10px;
+    }
+
+    h2 {
+        font-size: 30px;
+        margin-top: 200px;
+        margin-left: -150px;
+    }
+
+    /* ... Adjust other styles as needed for smaller screens ... */
+
+    form {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    input {
+        width: 100%;
+    }
+
+    button {
+        margin-left: 0;
+    }
+}
+
